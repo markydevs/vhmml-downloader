@@ -1,0 +1,4 @@
+requests>=2.32,<3
+PyMuPDF>=1.24,<2
+Pillow>=10.4,<13
+playwright>=1.48,<2

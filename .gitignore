@@ -1,0 +1,40 @@
+# Local environments and Python build/cache files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local credentials and browser data
+.env
+.env.*
+cookies.txt
+cookies.json
+*cookie*.local
+storage-state*.json
+browser-profile/
+playwright/.auth/
+*.har
+*.log
+
+# Generated manuscript files
+vHMML Downloads/
+*_images/
+*__[0-9]*/
+*.pdf
+*.part
+*.part.pdf
+download-state.json
+manifest.json
+source.json
+
+# Desktop/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
